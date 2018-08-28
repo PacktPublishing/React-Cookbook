@@ -1,0 +1,42 @@
+query getContact($contactId: Int!) {
+  contact(id: $contactId) {
+    name
+    phone
+    email
+  }
+}
+
+query getContacts($contactName: String!) {
+  contacts(name: $contactName) {
+    name
+    phone
+    email
+  }
+}
+
+query getContactsFragments($contactId1: Int!, $contactId2: Int!) {
+  contact1: contact(id: $contactId1) {
+    ...contactFields
+  }
+
+  contact2: contact(id: $contactId2) {
+    ...contactFields
+  }
+}
+
+mutation updateContact(
+  $contactId: Int!,
+  $name: String!,
+  $phone: String!,
+  $email: String!
+) {
+	updateContact(id: $contactId, name: $name, phone: $phone, email: $email) {
+    ...contactFields
+  }
+}
+
+fragment contactFields on Contact {
+  name
+  phone
+  email
+}

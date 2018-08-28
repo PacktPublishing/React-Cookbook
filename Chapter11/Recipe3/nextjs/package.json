@@ -1,0 +1,22 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "next start src",
+    "dev": "next src",
+    "build": "next build src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "axios": "^0.18.0",
+    "next": "^6.1.1",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}

@@ -1,0 +1,29 @@
+.navbar {
+  background: black;
+  color: white;
+  height: 60px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin-left: 30px;
+      text-align: center;
+
+      a {
+        display: block;
+        color: white;
+        line-height: 60px;
+        width: 150px;
+
+        &:hover {
+          background: white;
+          color: black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.Numbers {
+  padding: 30px;
+}
+
+.Numbers input[type=number]::-webkit-inner-spin-button,
+.Numbers input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Numbers input {
+  width: 500px;
+  height: 60px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.Numbers ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  width: 522px;
+}
+
+.Numbers ul li {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.Numbers ul li:first-child {
+  border-top: none;
+}
+
+.Numbers ul li:last-child {
+  border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,34 @@
+.Coins {
+  h1 {
+    text-align: center;
+  }
+
+  ul {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+    width: 400px;
+
+    li {
+      border-bottom: 1px solid black;
+      text-align: left;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+        background: #5ed4ff;
+
+        &:hover {
+          color: #333;
+          text-decoration: none;
+          background: #baecff;
+        }
+      }
+    }
+  }
+}

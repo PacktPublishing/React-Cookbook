@@ -1,0 +1,31 @@
+.Calculator {
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.Calculator input {
+  border: 1px solid #eee;
+  font-size: 16px;
+  text-align: center;
+  height: 50px;
+  width: 100px;
+}
+
+.Calculator button {
+  background: #0072ff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  height: 54px;
+  width: 150px;
+}
+
+.Calculator .result {
+  border: 10px solid red;
+  background: #eee;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 100px;
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Carlos Santana",
+      "phone": "281-323-4146",
+      "email": "carlos@milkzoft.com"
+    },
+    {
+      "id": 2,
+      "name": "Cristina",
+      "phone": "331-251-5673",
+      "email": "cristina@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "John Smith",
+      "phone": "415-307-4382",
+      "email": "john.smith@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "John Brown",
+      "phone": "281-323-4146",
+      "email": "john.brown@gmail.com"
+    }
+  ]
+}

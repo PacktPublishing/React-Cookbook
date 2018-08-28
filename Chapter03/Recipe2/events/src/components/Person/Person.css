@@ -1,0 +1,32 @@
+  .Person {
+    margin: 0 auto;
+  }
+
+  .Person form input {
+    border: 1px solid #eee;
+    font-size: 16px;
+    height: 50px;
+    width: 300px;
+  }
+
+  .Person form button {
+    background: #0072ff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    height: 50px;
+    width: 300px;
+  }
+
+  .Person .error {
+    border: 1px solid red;
+  }
+
+  .Person .errorMessage {
+    color: red;
+    font-size: 10px;
+  }
+
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+  }

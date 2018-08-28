@@ -1,0 +1,77 @@
+{
+  "name": "react-pro",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf dist/ && rm -rf public/app",
+    "start": "npm run clean & NODE_ENV=development BABEL_ENV=development nodemon src/server --watch src/server --watch src/shared --exec babel-node --presets es2015",
+    "start-analyzer": "npm run clean && NODE_ENV=development BABEL_ENV=development ANALYZER=true babel-node src/server",
+    "test": "node scripts/test.js src --env=jsdom",
+    "coverage": "node scripts/test.js src --coverage --env=jsdom"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/config/jest/setupTestFramework.js",
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "setupFiles": [
+      "<rootDir>/config/jest/browserMocks.js"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(scss)$": "identity-obj-proxy"
+    }
+  },
+  "author": "Carlos Santana",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.15.4",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "compression-webpack-plugin": "^1.0.0",
+    "css-loader": "^0.28.5",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.5.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-standard": "^3.0.1",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "husky": "^0.14.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.1.0",
+    "jsdom": "^11.11.0",
+    "moxios": "^0.4.0",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.17.4",
+    "react-hot-loader": "^4.2.0",
+    "redux-mock-store": "^1.5.1",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-hot-middleware": "^2.18.2",
+    "webpack-hot-server-middleware": "^0.5.0",
+    "webpack-merge": "^4.1.0",
+    "webpack-node-externals": "^1.6.0",
+    "webpack-notifier": "^1.6.0"
+  }
+}

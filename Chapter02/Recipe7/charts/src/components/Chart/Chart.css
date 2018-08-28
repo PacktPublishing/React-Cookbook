@@ -1,0 +1,21 @@
+p {
+  text-align: center;
+}
+
+button {
+  background: #159fff;
+  border: none;
+  color: white;
+  margin-left: 1em;
+  padding: 0.5em 2em;
+  text-transform: uppercase;
+  &:hover {
+    background: darken(#159fff, 5%);
+  }
+}
+
+#chart {
+  background: #fff;
+  width: 90%;
+  margin: 1em auto;
+}

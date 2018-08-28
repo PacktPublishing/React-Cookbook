@@ -1,0 +1,14 @@
+.Animation {
+  background: red;
+}
+
+.Animation .transition {
+  transition: all 3s ease 0s;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.Animation .transition.show {
+  padding-bottom: 300px;
+  background: red;
+}

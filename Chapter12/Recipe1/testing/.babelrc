@@ -1,0 +1,31 @@
+{
+  "presets": ["env", "react", "stage-0"],
+  "env": {
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "@App": "./src/client/App.jsx",
+        "@baseActions": "./src/shared/redux/baseActions.js",
+        "@client": "./src/client/",
+        "@configuration": "./config",
+        "@about": "./src/client/about",
+        "@todo": "./src/client/todo",
+        "@home": "./src/client/home",
+        "@configureStore": "./src/shared/redux/configureStore.js",
+        "@reducers": "./src/shared/reducers",
+        "@server": "./src/server/",
+        "@utils": "./src/shared/utils",
+        "@shared": "./src/shared",
+        "@layout": "./src/shared/components/layout/",
+        "@webpack": "./webpack.config.js"
+      }
+    }]
+  ]
+}

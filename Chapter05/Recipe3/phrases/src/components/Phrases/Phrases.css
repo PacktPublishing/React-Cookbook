@@ -1,0 +1,57 @@
+hr {
+  width: 98%;
+  border: 1px solid white;
+}
+
+.phrase {
+  background-color: #2db2ff;
+  border-radius: 17px;
+  box-shadow: 2px 2px 2px 2px #E0E0E0;
+  color: white;
+  font-size: 20px;
+  margin-top: 25px;
+  overflow: hidden;
+  border-left: none;
+  padding: 20px;
+}
+
+.mark {
+  color: white;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: -20px;
+  text-align: left;
+  text-indent: 20px;
+}
+
+.text {
+  font-size: 30px;
+  font-style: italic;
+  margin: 0 auto;
+  margin-top: -65px;
+  text-align: center;
+  width: 90%;
+}
+
+.author {
+  font-size: 30px;
+}
+
+textarea {
+  width: 50%;
+  font-size: 30px;
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+input {
+  font-size: 30px;
+  border: 1px solid #333;
+}
+
+a {
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+}

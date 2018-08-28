@@ -1,0 +1,25 @@
+{
+  "presets": ["env", "react"],
+  "env": {
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    }
+  },
+  "plugins": [
+   ["module-resolver", {
+     "root": ["./"],
+     "alias": {
+       "@App": "./src/client/App.jsx",
+       "@client": "./src/client/",
+       "@components": "./src/client/components",
+       "@configureStore": "./src/shared/redux/configureStore.js",
+       "@reducers": "./src/shared/reducers",
+       "@server": "./src/server/",
+       "@utils": "./src/shared/utils",
+       "@webpack": "./webpack.config.babel.js"
+     }
+   }]
+ ],
+}

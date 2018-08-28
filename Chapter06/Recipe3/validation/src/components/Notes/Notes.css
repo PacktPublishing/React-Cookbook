@@ -1,0 +1,20 @@
+.Notes ul {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.Notes ul li {
+  padding: 10px;
+}
+
+.Notes a {
+  color: #555;
+  text-decoration: none;
+}
+
+.Notes a:hover {
+  color: #ccc;
+  text-decoration: none;
+}

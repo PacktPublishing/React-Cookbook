@@ -1,0 +1,87 @@
+.Todo {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  margin-bottom: 20px;
+  margin: 50px auto;
+  min-height: 20px;
+  padding: 19px;
+  text-align: left;
+  width: 70%;
+}
+
+.Todo ul {
+  margin: 20px 0px;
+  padding: 0;
+  list-style: none;
+}
+
+.Todo ul li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -1px;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.Todo ul li .hide {
+  border: 1px solid red;
+  visibility: hidden;
+}
+
+.Todo ul li.completed {
+  background-color: #dff0d8;
+}
+
+.Todo ul li .actions {
+  display: flex;
+  justify-content: space-between;
+  width: 40px;
+}
+
+.Todo ul li span {
+  cursor: pointer;
+}
+
+.Todo ul li .done {
+  color: #79c41d;
+  display: block;
+}
+
+.Todo ul li .trash {
+  color: #c41d1d;
+  display: block;
+}
+
+.Todo form input {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  color: #555;
+  font-size: 14px;
+  height: 34px;
+  line-height: 34px;
+  padding: 6px 12px;
+  width: 40%;
+}
+
+.Todo form button {
+  background: #2ba6cb;
+  border: 1px solid #1e728c;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 20px auto;
+  padding: 10px 20px 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
