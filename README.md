@@ -60,7 +60,7 @@ With the following software and hardware list you can run all code files present
 
 * Linux Device Drivers Development [[Packt]](https://www.packtpub.com/web-development/react-native-blueprints?utm_source=github&utm_medium=repository&utm_campaign=9781787288096) [[Amazon]](https://www.amazon.com/dp/1787288099)
 
-## Get to Know the Author(s)
+## Get to Know the Author
 **Carlos Santana Roldan**
 Carlos Santana Roldan is a senior web developer with more than 11 years of experience. Currently, he is working as a React Technical Lead in Disney ABC Television Group. He is the founder of Codejobs.com, one of the most popular developer communities in Latin America, training people in web technologies such as React, Node.js, and JavaScript.
 
