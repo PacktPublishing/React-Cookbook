@@ -62,7 +62,7 @@ With the following software and hardware list you can run all code files present
 
 ## Get to Know the Author
 **Carlos Santana Roldan**
-Carlos Santana Roldan is a senior web developer with more than 11 years of experience. Currently, he is working as a React Technical Lead in Disney ABC Television Group. He is the founder of Codejobs.com, one of the most popular developer communities in Latin America, training people in web technologies such as React, Node.js, and JavaScript.
+is a senior web developer with more than 11 years of experience. Currently, he is working as a React Technical Lead in Disney ABC Television Group. He is the founder of Codejobs.com, one of the most popular developer communities in Latin America, training people in web technologies such as React, Node.js, and JavaScript.
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
