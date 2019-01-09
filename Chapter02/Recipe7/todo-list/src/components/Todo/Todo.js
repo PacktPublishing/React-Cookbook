@@ -65,19 +65,20 @@ class Todo extends Component {
   }
 
   markAsCompleted = id => {
-    // Finding the task by id...
-    const foundTask = this.state.items.find(task => task.id === id);
-
-    // Updating the completed status...
-    foundTask.completed = true;
-
+    const itensUpdated = this.state.items.map( item => {
+      
+     // Finding the task by id...
+      if(item.id === id){
+        // Updating the completed status...
+        return Object.assign({}, item, {
+          completed: true
+        })
+      }
+      return item
+    })
     // Updating the state with the new updated task...
-    this.setState({
-      items: [
-        ...this.state.items,
-        ...foundTask
-      ]
-    });
+    this.setState({items: itensUpdated})
+
   }
 
   removeTask = id => {
