@@ -10,7 +10,7 @@ This is the code repository for [React Cookbook](https://www.packtpub.com/web-de
 ## What is this book about?
 Today's web demands efficient real-time applications and scalability. If you want to learn to build fast, efficient, and high-performing applications using React 16, this is the book for you. We plunge directly into the heart of all the most important React concepts for you to conquer. Along the way, you’ll learn how to work with the latest ECMAScript features.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features:
 * Gain the ability to wield complex topics such as Webpack and server-side rendering
 * Implement an API using Node.js, Firebase, and GraphQL
 * Learn to maximize the performance of React applications
