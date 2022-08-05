@@ -14,7 +14,7 @@
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "mongoose": "^5.0.14",
+    "mongoose": "^5.7.5",
     "morgan": "~1.9.0",
     "mysql2": "^1.5.3",
     "nodemon": "^1.17.3",
