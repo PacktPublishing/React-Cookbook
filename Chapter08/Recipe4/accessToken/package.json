@@ -14,7 +14,7 @@
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "jsonwebtoken": "^8.2.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.0.14",
     "morgan": "~1.9.0",
     "mysql2": "^1.5.3",
